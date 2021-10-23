@@ -16,4 +16,3 @@ def isPalindrome(aString):
             return aString[0] == aString[-1] and isPal(aString[1:-1])
 
     return isPal(toChars(aString))
-
